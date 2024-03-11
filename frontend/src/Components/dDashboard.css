@@ -1,0 +1,57 @@
+/* DDashboard.css */
+
+.dd-dashboard {
+  padding-top: 120px;
+  padding-bottom: 115.5px;
+  position: relative;
+  overflow: hidden;
+}
+
+.dd-dashboard .services-content {
+  max-width: 670px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.dd-dashboard .services-list {
+  margin-top: calc(83px - 18.5px);
+  margin-bottom: -18.5px;
+  margin-right: -18.5px;
+  margin-left: -18.5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dd-dashboard .services-item {
+  box-shadow: 10px 40px 50px 0px #e5e9f666;
+  background-color: var(--clr-white);
+  border-radius: 20px;
+  width: 350px;
+  min-height: 354px;
+  padding: 46px 38px;
+  margin: 18.5px;
+  width: calc(50% - 37px);
+  transition: var(--transition-default);
+}
+
+.dd-dashboard .services-item:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0 20px 25px -5px, rgba(0, 0, 0, 0.04) 0 10px 10px -5px;
+}
+
+.dd-dashboard .services-item .item-icon img {
+  width: 50px; /* Adjust the size as needed */
+  height: 50px;
+}
+
+.dd-dashboard .services-item .item-title {
+  font-size: 18px; /* Adjust the font size as needed */
+  margin-top: 22px;
+  margin-bottom: 12px;
+}
+
+.dd-dashboard .services-shape {
+  position: absolute;
+  z-index: -1;
+  top: 340px;
+  width: 70%; /* Adjust the width as needed */
+}

@@ -1,0 +1,16 @@
+.modal-overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Check the opacity value */
+    width: auto;
+  }
+  
+  .modal-content {
+    background-color: white; /* Set a solid background color */
+  }
+  .modal-overlay {
+    z-index: 1000; /* Adjust the value as needed */
+  }
+  
+  .modal-content {
+    z-index: 1001; /* Should be higher than the overlay */
+  }
+    

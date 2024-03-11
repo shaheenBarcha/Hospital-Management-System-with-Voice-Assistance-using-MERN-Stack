@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+:root {
+    --clr-blue: #458ff6;
+    --clr-black: #000;
+    --clr-white: #fff;
+    --clr-gray: #7d7987;
+    --clr-dark-blue: #233348;
+    --clr-dark-purple: #1f1534;
+    --font-family-mulish: 'Mulish', sans-serif;
+    --transition-default: all 300ms ease-in-out;
+}
+
+html {
+    scroll-behavior: smooth;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -webkit-text-size-adjust: 100%;
+}
+
+.vassistant-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.checkContainer {
+    margin: 0 auto;
+    padding-right: 16px;
+    padding-left: 16px;
+    max-width: calc(1273px - 32px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a shadow */
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    background-color: #ffffff;
+}
+
+.mic-container {
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 20px; /* Margin between mic and transcription */
+}
+
+.mic-icon {
+    font-size: 36px;
+    color: var(--clr-white);
+    cursor: pointer;
+    transition: font-size var(--transition-default), color var(--transition-default);
+    animation: glow 1.5s infinite alternate; /* Glowing animation */
+    border-radius: 50%; /* Make it round */
+    background-color: var(--clr-dark-blue); /* Dark background */
+    padding: 20px; /* Adjust padding for better visual appearance */
+    box-shadow: 0 0 10px rgba(69, 143, 246, 0.8); /* Initial shadow */
+    
+}
+
+.transcription-container {
+    text-align: center;
+}
+
+.transcription-text {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.icon-container {
+    display: flex;
+    margin-top: 10px;
+}
+
+.send-icon,
+.clear-icon {
+    font-size: 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    padding-left: 90px;
+}
+
+.send-icon:hover,
+.clear-icon:hover {
+    color: var(--clr-dark-blue);
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 0 0 10px rgba(214, 246, 69, 0.8);
+    }
+    to {
+        box-shadow: 0 0 140px rgb(134, 246, 69),
+                    0 0 160px rgb(219, 246, 69),
+                    0 0 180px rgba(207, 53, 53, 0.6);
+    }
+}
+
+.status-message {
+    margin-top: 20px;
+    color: red; /* Change the color as needed */
+}
+
+.h2-mulish {
+    font-family: var(--font-family-mulish);
+    color: #458ff6;
+}
+
+.h3-mulish {
+    font-family: var(--font-family-mulish);
+    color: #458ff6
+}
+
+.h4-mulish {
+    font-family: var(--font-family-mulish);
+    color: #458ff6
+}

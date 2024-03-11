@@ -1,0 +1,99 @@
+/* myProfile.css */
+
+/* Styles for the MyProfile component */
+.my-profile-panel {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  /* Circular Profile Picture */
+  .profile-picture-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-picture {
+    border-radius: 50%;
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Adjust the size as needed */
+    object-fit: cover;
+  }
+  
+  /* Bio styling */
+  .bio {
+    font-style: italic;
+    color: #555;
+    margin-top: 15px;
+  }
+  /* myProfile.css */
+
+/* Add these styles to your existing myProfile.css file */
+
+.my-profile-panel {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .profile-picture-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-picture {
+    border-radius: 50%;
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Adjust the size as needed */
+    object-fit: cover;
+  }
+  
+  .bio {
+    font-style: italic;
+    color: #555;
+    margin-top: 15px;
+  }
+  
+  /* Form styles */
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  /* Buttons */
+  .edit-button,
+  .update-button,
+  .cancel-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .cancel-button {
+    background-color: #ccc;
+  }
+  
+  /* Adjust button styles based on your theme */
+  

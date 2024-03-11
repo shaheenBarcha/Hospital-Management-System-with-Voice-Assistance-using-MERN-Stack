@@ -1,0 +1,12 @@
+.newModal {
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adjust the values for the desired shadow effect */
+    border-radius: 10px; /* Adjust the value as needed for the desired roundness */
+  }
+  
